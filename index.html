@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="author" content="Nathan Harris" />
+    <meta 
+        name="descrption" 
+        content="WDD 230 - Web Frontend Development course assignment portal for Nathan Harris. 
+        This site provides an overview of work completed during the Fall 2024 Semester at BYUI." />
+    <title>Nathan Harris - WDD 230 - Web Frontend Development</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+   <header>
+        <img src="./images/profile.jpg" alt="Profile picture of me." >
+        <h1>Nathan Harris</h1>
+   </header> 
+   <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="" target="_blank">Site Plan</a></li>
+            <li><a href="" target="_blank">Form</a></li>
+        </ul>
+   </nav>
+   <main>
+        <h2 id="heading">WDD 230: Web Frontend Development</h2>
+        <hr>
+        <section class="card" id="learning">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li><a href="#"></a></li>
+            </ul>
+        </section>
+        <section class="card" id="info">
+            <h3>Information</h3>
+            <ul>
+                <li>Weather:</li>
+                <li>Number of Visits:</li>
+            </ul>
+        </section>
+   </main>
+   <footer>
+        <p id="copyright"></p>
+        <p id="lastModified"></p>
+   </footer>
+   <script src="./scripts/getdates.js"></script>
 </body>
 </html>
