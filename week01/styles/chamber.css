@@ -1,0 +1,103 @@
+body {
+    font-family: "Nanum Gothic", serif;
+    color: #000;
+    background-color: #FFF;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #2A313A;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+header h3 {
+    font-family: "Raleway", serif;
+    font-weight: 300;
+}
+
+/* Main */
+main {
+    padding: 1rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #2A313A;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+main p {
+    font-family: "Karla", serif;
+    margin-top: 0.5rem;
+}
+
+/* Color Schema Section */
+.page-background-color,
+.section-background-color,
+.heading-color,
+.paragraph-color {
+    margin-bottom: 0.5rem;
+}
+
+/* Typography Section */
+.heading-family {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.other-family {
+    font-family: "Raleway", serif;
+}
+
+.other-family-2 {
+    font-family: "Karla", serif;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2A313A;
+    color: #FFF;
+    font-size: 0.9rem;
+}
+main .wireframes {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+main .wireframes img {
+    width: 45%; /* Adjust size as needed */
+    height: auto;
+    border: 1px solid #ccc; /* Optional: for better separation */
+    border-radius: 4px; /* Optional: for rounded edges */
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: 1px solid #000; /* Optional: adds contrast for light colors */
+    vertical-align: middle;
+    border-radius: 4px; /* Optional: for rounded edges */
+}
